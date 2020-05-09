@@ -11,16 +11,89 @@ body{
   font-size: 20px;
 }
 
+nav{
+  width: 900px;
+  border: 5px solid slategray;
+  opacity: 0.5;
+  margin: 30px;
+  margin-bottom: 10px;
+
+}
+
+#bottomNav{
+  margin-top: 160px;
+}
+
+#lady{
+  float: right;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  /* font-weight: bolder; */
+
+}
+
 h2{
   font-family: 'Yellowtail', cursive;
   font-size: 34px;
   font-style: italic;
 }
 
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px;
+  color: grey;
+
+}
+
 h4{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10px;
   color: grey;
+}
+
+p{
+  font-family: serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgba(70, 67, 67, 0.75);
+
+}
+
+li{
+  line-height: 1.5em;
+  font-family: "Comic Sans MS";
+  color: rgba(91, 46, 32, 0.892);
+}
+
+#items{
+  margin-left: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+#checkbox1{
+  font-size: 20px;
+  position: relative;
+  left: 55px;
+  top: 30px;
+
+}
+
+#checkbox2{
+  float: right;
+  margin-right: 175px;
+  margin-top: -150px;
+  font-size: 20px;
+
+}
+
+#paper{
+  margin-left: 30px;
+  position: absolute;
+  z-index: 0;
 }
 
 /* #top-section{
@@ -47,6 +120,21 @@ h4{
   margin-left: 30px;
 }
 
+#face{
+  margin-left: 30px;
+  width: 800px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+#lady{
+  width: 625px;
+  margin-right: 40px;
+  position: relative;
+  right: 50px;
+  color: rgba(70, 67, 67, 0.75);
+}
+
 #logo-text{
   float:right;
 }
@@ -65,4 +153,56 @@ h4{
 
 .inline{
   display: inline;
+}
+
+#title{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#print{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  top: -15px;
+  color: gray;
+  font-size: 14px;
+  
+}
+
+#instructions{
+  width: 900px;
+  margin-left: 30px;
+  text-indent: 30px;
+}
+
+#share-button{
+  position: relative;
+  left: 715px;
+  bottom: 175px;
+  float: left;
+  height: 50px;
+  width: 220px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: rgba(189, 117, 63, 0.935);
+  color: white;
+  font-family: "Arial";
+
+}
+
+footer{
+  margin-bottom: 20px;
+}
+
+#foot{
+  text-align: center;
+  position: relative;
+  right: 120px;
+  bottom: 20px;
+  color: rgba(70, 67, 67, 0.75);
+}
+
+#lilLogo{
+  margin-bottom: 10px;
 }
